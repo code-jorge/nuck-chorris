@@ -1,7 +1,7 @@
 const DURATION = 30 * 1000 // 30 seconds
 
 const fetchQuote = ()=> {
-  fetch('https://api.chucknorris.io/jokes/random')
+  fetch('https://api.chucknorris.io/jokes/random?category=dev')
     .then(response => response.json())
     .then(({ value }) => {
       const quote = value
