@@ -1,4 +1,4 @@
-const DURATION = 30 * 1000 // 30 seconds
+const DURATION = 12 * 1000 // 12 seconds
 
 const fetchQuote = ()=> {
   fetch('https://api.chucknorris.io/jokes/random?category=dev')
